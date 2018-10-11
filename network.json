@@ -32,7 +32,7 @@
                 }
             ],
             "source": "data.csv",
-            "target": "cleandata.R"
+            "target": "mergeData.R"
         }
     ],
     "nodes": [
@@ -48,10 +48,12 @@
             "name": "data.csv"
         },
         {
+            "assigned_to": "yash",
             "desc": "",
-            "name": "cleandata.R"
+            "name": "mergeData.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-11 15:40:55",
+    "updated_at": "2018-10-11 15:44:17",
     "url": "https://github.com/fall2018-saltz/ya_map7"
 }
