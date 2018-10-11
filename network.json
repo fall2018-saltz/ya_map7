@@ -23,6 +23,16 @@
             ],
             "source": "clean.R",
             "target": "data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "cleandata",
+                    "type": "csv"
+                }
+            ],
+            "source": "data.csv",
+            "target": "cleandata.R"
         }
     ],
     "nodes": [
@@ -42,6 +52,6 @@
             "name": "cleandata.R"
         }
     ],
-    "updated_at": "2018-10-11 15:40:32",
+    "updated_at": "2018-10-11 15:40:55",
     "url": "https://github.com/fall2018-saltz/ya_map7"
 }
