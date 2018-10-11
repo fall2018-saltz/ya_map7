@@ -17,7 +17,7 @@
         {
             "ports": [
                 {
-                    "output": "clean_data",
+                    "output": "cleandata",
                     "type": "csv"
                 }
             ],
@@ -30,12 +30,14 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
-            "name": "clean.R"
+            "assigned_to": "yash",
+            "name": "clean.R",
+            "task_status": "in progress"
         },
         {
             "name": "data.csv"
         }
     ],
-    "updated_at": "2018-10-11 15:34:57",
+    "updated_at": "2018-10-11 15:36:07",
     "url": "https://github.com/fall2018-saltz/ya_map7"
 }
