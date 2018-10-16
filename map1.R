@@ -1,7 +1,7 @@
 
 mergedData = mergedData
 library(ggmap)
-library(ggplot2)
+#library(ggplot2)
 us = map_data("state")
 map1=ggplot(mergedData,aes(map_id=statenames))
 map1=map1+geom_map(map=us,fill='white',color='black')
