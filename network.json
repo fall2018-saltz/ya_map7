@@ -33,6 +33,17 @@
             ],
             "source": "data.csv",
             "target": "mergeData.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergedData",
+                    "output": "mergedData",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "mergeData.R",
+            "target": "map1.R"
         }
     ],
     "nodes": [
@@ -60,6 +71,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-16 21:53:43",
+    "updated_at": "2018-10-16 21:53:59",
     "url": "https://github.com/fall2018-saltz/ya_map7"
 }
