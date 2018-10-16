@@ -7,5 +7,4 @@ map1=map1+expands_limits(x=us$long,y=us$lat)
 map1=map1+coord_map+ggtitle('USA MAP')
 map1
 
-
-Row.names
+mergedData.names
