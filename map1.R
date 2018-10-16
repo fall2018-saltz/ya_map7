@@ -8,4 +8,3 @@ map1=map1+coord_map+ggtitle("USA MAP")
 map1
 
 
-us <- map_data("states")
