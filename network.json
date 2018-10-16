@@ -44,6 +44,16 @@
             ],
             "source": "mergeData.R",
             "target": "map1.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "map1",
+                    "type": "png"
+                }
+            ],
+            "source": "map1.R",
+            "target": "plot.png"
         }
     ],
     "nodes": [
@@ -74,6 +84,6 @@
             "name": "plot.png"
         }
     ],
-    "updated_at": "2018-10-16 22:12:19",
+    "updated_at": "2018-10-16 22:12:26",
     "url": "https://github.com/fall2018-saltz/ya_map7"
 }
