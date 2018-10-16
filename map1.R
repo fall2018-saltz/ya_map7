@@ -2,7 +2,7 @@
 mergedData = mergedData
 library(ggmap)
 library(ggplot2)
-us = map.data("state")
+us = map_data("state")
 map1=ggplot(mergedData,aes(map_id=Row.names))
 map1=map1+geom_map(map=us,fill='white',color='black')
 map1=map1+expands_limits(x=us$long,y=us$lat)
