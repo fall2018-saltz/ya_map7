@@ -52,8 +52,11 @@
             "desc": "",
             "name": "mergeData.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "mergedData.csv"
         }
     ],
-    "updated_at": "2018-10-17 21:29:39",
+    "updated_at": "2018-10-17 21:30:29",
     "url": "https://github.com/fall2018-saltz/ya_map7"
 }
