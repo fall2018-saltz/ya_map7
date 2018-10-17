@@ -16,4 +16,5 @@ arrests=cbind(arrests,stateName,stringsAsFactors=FALSE)
 mergedData=merge(cleandata,arrests,by="stateName")
 mergedData
 
+#2)	Add the area of each state, and the center of each state, to the mergeddataframe, using the ‘state.center’, ‘state.center’ and ‘state.name’ vectors
 
