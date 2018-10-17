@@ -120,8 +120,11 @@
         },
         {
             "name": "colorMap3.png"
+        },
+        {
+            "name": "colorMap4.png"
         }
     ],
-    "updated_at": "2018-10-17 22:19:00",
+    "updated_at": "2018-10-17 22:36:01",
     "url": "https://github.com/fall2018-saltz/ya_map7"
 }
