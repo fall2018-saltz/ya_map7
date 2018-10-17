@@ -53,6 +53,7 @@ colorMap3
 
 #use the coordinates of NewYork city
 lats=geocode("new york city, ny",source="dsk")
+#set the latitude and longitude
 y1=lats$lat-10
 x1=lats$lon-10
 x2=lats$lon+10
