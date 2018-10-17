@@ -94,8 +94,12 @@
         },
         {
             "name": "colorMap.png"
+        },
+        {
+            "desc": "",
+            "name": "shadeMap.R"
         }
     ],
-    "updated_at": "2018-10-17 21:37:03",
+    "updated_at": "2018-10-17 22:02:11",
     "url": "https://github.com/fall2018-saltz/ya_map7"
 }
