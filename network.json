@@ -37,13 +37,62 @@
         {
             "ports": [
                 {
-                    "input": "mergedData",
                     "output": "mergedData",
-                    "type": "r_obj"
+                    "type": "csv"
                 }
             ],
             "source": "mergeData.R",
-            "target": "map1.R"
+            "target": "mergedData.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergedData",
+                    "type": "csv"
+                }
+            ],
+            "source": "mergedData.csv",
+            "target": "colorMap.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "colorMap",
+                    "type": "png"
+                }
+            ],
+            "source": "colorMap.R",
+            "target": "colorMap.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "colorMap2",
+                    "type": "png"
+                }
+            ],
+            "source": "colorMap.R",
+            "target": "colorMap2.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "colorMap3",
+                    "type": "png"
+                }
+            ],
+            "source": "colorMap.R",
+            "target": "colorMap3.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "colorMap4",
+                    "type": "png"
+                }
+            ],
+            "source": "colorMap.R",
+            "target": "colorMap4.png"
         }
     ],
     "nodes": [
@@ -65,12 +114,27 @@
             "task_status": "in progress"
         },
         {
+            "name": "mergedData.csv"
+        },
+        {
             "assigned_to": "yash",
             "desc": "",
-            "name": "map1.R",
+            "name": "colorMap.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "colorMap.png"
+        },
+        {
+            "name": "colorMap2.png"
+        },
+        {
+            "name": "colorMap3.png"
+        },
+        {
+            "name": "colorMap4.png"
         }
     ],
-    "updated_at": "2018-10-16 21:54:53",
+    "updated_at": "2018-10-17 22:36:27",
     "url": "https://github.com/fall2018-saltz/ya_map7"
 }
