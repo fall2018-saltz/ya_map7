@@ -29,6 +29,6 @@ return(dfStates)
 }
 cleandata=cenFun(raw_data)
 cleandata$stateName=tolower(cleandata$stateName)
-
+cleandata
 
 
