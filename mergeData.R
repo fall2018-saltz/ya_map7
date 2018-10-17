@@ -2,7 +2,7 @@
 #take the USArrests data set into arrests variable 
 arrests=USArrests
 
-stateName=as.vector(rownames(USArrests$stateName)
+stateName=as.vector(rownames(USArrests)
 stateName=tolower(stateName)
 
 #arrests doesn't contain a proper column name for state names but has state names as index
