@@ -36,7 +36,7 @@ colorMap2
 #using the location defined by the center of each state
 
 colorMap3=ggplot(mergedData, aes(map_id = stateName))
-colorMap3=colorMap3+geom_map(map = us,aes(fill=Murder))+ scale_fill_gradient(low = "greean", high = "red")             
+colorMap3=colorMap3+geom_map(map = us,aes(fill=Murder))+ scale_fill_gradient(low = "green", high = "red")             
 colorMap3=colorMap3+expand_limits(x = us$long, y = us$lat) + coord_map()
 colorMap3=colorMap3+geom_point(mergedData, mapping = aes(x = stCenterx, y=stCenterY, size=population))
 colorMap3
