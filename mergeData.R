@@ -2,7 +2,7 @@
 #take the USArrests data set into arrests variable 
 arrests=USArrests
 
-stateName=as.vector(rownames(USArrests)
+stateName=as.vector(rownames(arrests)
 stateName=tolower(stateName)
 
 arrests=cbind(arrests,stateName,stringsAsFactors=FALSE)
