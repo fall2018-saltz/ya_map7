@@ -43,6 +43,16 @@
             ],
             "source": "mergeData.R",
             "target": "mergedData.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergedData",
+                    "type": "csv"
+                }
+            ],
+            "source": "mergedData.csv",
+            "target": "colorMap.R"
         }
     ],
     "nodes": [
@@ -67,10 +77,12 @@
             "name": "mergedData.csv"
         },
         {
+            "assigned_to": "yash",
             "desc": "",
-            "name": "colorMap.R"
+            "name": "colorMap.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-17 21:31:44",
+    "updated_at": "2018-10-17 21:33:15",
     "url": "https://github.com/fall2018-saltz/ya_map7"
 }
