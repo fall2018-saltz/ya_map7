@@ -27,8 +27,11 @@ colnames(dfStates)=c("stateName","population","popOver18","percentOver18")
 
 return(dfStates)
 }
-cleandata=cenFun(raw_data)
-cleandata
 
+cleandata=cenFun(raw_data)
+
+rownames(cleandata)=cleandata$stateName
+cleandata$stateName=tolower(cleandata$stateName)
+cleandata
 
 
