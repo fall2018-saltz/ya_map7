@@ -24,6 +24,8 @@ colorMap
 #4)	Repeat step B, but color code the map based on the murder rate of each state.
 
 colorMap2= ggplot(mergedData, aes(map_id = stateName))
+
+#here the map is based on murder rate
 colorMap2=colorMap2+ geom_map(map = us,aes(fill=Murder))+ scale_fill_gradient(low = "green", high = "red")             
 colorMap2=colorMap2+expand_limits(x = us$long, y = us$lat) + coord_map()
 colorMap2
