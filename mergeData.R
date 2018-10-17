@@ -8,7 +8,7 @@ stateName=tolower(stateName)
 cbind(arrests,stateName,stringsAsFactors=FALSE)
 #now that we have to merge two dataframes using a common element 
 #the column element is stateName
-mergedData=merge(cleandata,arrests,by="row.names")
+mergedData=merge(cleandata,arrests,by="stateName")
 mergedData
 
 
