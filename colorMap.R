@@ -10,6 +10,8 @@ us=map_data("state")
 
 #for ggplot add aesthetics
 colorMap=ggplot(mergedData, aes(map_id = stateName))
+
+#geom_map for map 
 colorMap=colorMap+ geom_map(map = us ,aes(fill= state.area))
 colorMap=colorMap+expand_limits(x = us$long, y = us$lat) + coord_map()
 colorMap=colorMap+ggtitle("US Color Map")
