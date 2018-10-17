@@ -20,3 +20,9 @@ colorMap=colorMap+expand_limits(x = us$long, y = us$lat) + coord_map()
 #add title for the map
 colorMap=colorMap+ggtitle("US Color Map")
 colorMap
+
+
+colorMap2= ggplot(mergedData, aes(map_id = stateName))
+colorMap2=colorMap2+ geom_map(map = us,aes(fill=Murder))+ scale_fill_gradient(low = "green", high = "red")             
+colorMap2=colorMap2+expand_limits(x = us$long, y = us$lat) + coord_map()
+colorMap2
