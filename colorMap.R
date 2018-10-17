@@ -25,7 +25,7 @@ colorMap
 
 colorMap2= ggplot(mergedData, aes(map_id = stateName))
 
-#here the map is based on murder rate
+#here the map is based on murder rate instead of the state area as in above case
 colorMap2=colorMap2+ geom_map(map = us,aes(fill=Murder))+ scale_fill_gradient(low = "green", high = "red")             
 colorMap2=colorMap2+expand_limits(x = us$long, y = us$lat) + coord_map()
 colorMap2
