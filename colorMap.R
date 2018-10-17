@@ -1,4 +1,5 @@
 
+#Step B: Generate a color coded map
 #3)	Create a color codedmap, based on the area of the state 
 
 #for ggplot visualisation we need the ggplot2 package
