@@ -53,6 +53,16 @@
             ],
             "source": "mergedData.csv",
             "target": "colorMap.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "colorMap",
+                    "type": "png"
+                }
+            ],
+            "source": "colorMap.R",
+            "target": "colorMap.png"
         }
     ],
     "nodes": [
@@ -86,6 +96,6 @@
             "name": "colorMap.png"
         }
     ],
-    "updated_at": "2018-10-17 21:36:48",
+    "updated_at": "2018-10-17 21:37:03",
     "url": "https://github.com/fall2018-saltz/ya_map7"
 }
