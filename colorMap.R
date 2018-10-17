@@ -45,6 +45,15 @@ colorMap3
 
 #Step D: Zoom the map
 #6)	Repeat step C, but only show the states in the north east
-Hint: get the lat and lon of new york city
-Hint: set the xlim and ylim to NYC +/- 10
+
+lats=geocode("new york city, ny",source="dsk")
+y1=lats$lat-10
+x1=lats$lon-10
+x2=lats$lon+10
+y2=lats$lat+10
+colorMap4=ggplot(mergedData, aes(map_id=stateName))
+colorMap4=colorMap4ap4 + geom_map(map=us,aes(fill=Murder))+ scale_fill_gradient(low = "green", high = "red") + xlim(c(x1,x2)) + ylim(c(y1,y2))        
+colorMap4=colorMap4+ expand_limits(x=us$long, y = us$lat) + coord_map()
+colorMap4=colorMap4+ geom_point(data=mergedData, mapping = aes(x = stCenterX, y = stCenterY, size=population))
+colorMap4
 
