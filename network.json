@@ -83,6 +83,16 @@
             ],
             "source": "colorMap.R",
             "target": "colorMap3.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "colorMap4",
+                    "type": "png"
+                }
+            ],
+            "source": "colorMap.R",
+            "target": "colorMap4.png"
         }
     ],
     "nodes": [
@@ -125,6 +135,6 @@
             "name": "colorMap4.png"
         }
     ],
-    "updated_at": "2018-10-17 22:36:01",
+    "updated_at": "2018-10-17 22:36:27",
     "url": "https://github.com/fall2018-saltz/ya_map7"
 }
