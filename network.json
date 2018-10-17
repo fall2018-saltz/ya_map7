@@ -65,8 +65,12 @@
         },
         {
             "name": "mergedData.csv"
+        },
+        {
+            "desc": "",
+            "name": "colorMap.R"
         }
     ],
-    "updated_at": "2018-10-17 21:30:43",
+    "updated_at": "2018-10-17 21:31:44",
     "url": "https://github.com/fall2018-saltz/ya_map7"
 }
