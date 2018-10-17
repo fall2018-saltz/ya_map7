@@ -2,6 +2,7 @@
 #3)	Create a color codedmap, based on the area of the state 
 
 #for ggplot visualisation we need the ggplot2 package
+#gor geom_map we need the ggmap package
 library("ggplot2")
 library("ggmap")
 us=map_data("state")
