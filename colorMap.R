@@ -14,7 +14,9 @@ colorMap=ggplot(mergedData, aes(map_id = stateName))
 #geom_map for map 
 colorMap=colorMap+ geom_map(map = us ,aes(fill= state.area))
 
-#add limits for the map
+#add limits as coordinates for the map
 colorMap=colorMap+expand_limits(x = us$long, y = us$lat) + coord_map()
+
+#add title for the map
 colorMap=colorMap+ggtitle("US Color Map")
 colorMap
