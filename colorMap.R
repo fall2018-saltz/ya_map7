@@ -1,7 +1,8 @@
 
+#3)	Create a color codedmap, based on the area of the state 
 library("ggplot2")
 library("ggmap")
-us <- map_data("state")
+us=map_data("state")
 options(scipen=999)
 colorMap=ggplot(mergedData, aes(map_id = stateName))
 colorMap=colorMap+ geom_map(map = us ,aes(fill= state.area))
