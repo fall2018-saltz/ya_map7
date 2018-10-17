@@ -33,27 +33,6 @@
             ],
             "source": "data.csv",
             "target": "mergeData.R"
-        },
-        {
-            "ports": [
-                {
-                    "input": "mergedData",
-                    "output": "mergedData",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "mergeData.R",
-            "target": "map1.R"
-        },
-        {
-            "ports": [
-                {
-                    "output": "map1",
-                    "type": "png"
-                }
-            ],
-            "source": "map1.R",
-            "target": "plot.png"
         }
     ],
     "nodes": [
@@ -75,15 +54,9 @@
             "task_status": "in progress"
         },
         {
-            "assigned_to": "yash",
-            "desc": "",
-            "name": "map1.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "plot.png"
         }
     ],
-    "updated_at": "2018-10-16 22:12:26",
+    "updated_at": "2018-10-17 21:29:34",
     "url": "https://github.com/fall2018-saltz/ya_map7"
 }
