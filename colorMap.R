@@ -31,4 +31,6 @@ colorMap2=colorMap2+ geom_map(map = us,aes(fill=Murder))+ scale_fill_gradient(lo
 colorMap2=colorMap2+expand_limits(x = us$long, y = us$lat) + coord_map()
 colorMap2
 
-#5)	 Show the population as a circle per state (the larger the population, the larger the circle), using the location defined by the center of each state
+#5)	 Show the population as a circle per state
+#(the larger the population, the larger the circle), 
+#using the location defined by the center of each state
