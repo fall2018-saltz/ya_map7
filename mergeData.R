@@ -4,7 +4,7 @@ arrests=USArrests
 #arrests doesn't contain a proper column name for state names but has state names as index
 #so create a column to store the state names suing rownames
 rownames(cleandata)=as.vector(cleandata[,"stateName"])
-arrests
+
 #now that we have to merge two dataframes using a common element 
 #the column element is stateName
 mergedData=merge(cleandata,arrests,by="row.names")
