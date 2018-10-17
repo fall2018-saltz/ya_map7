@@ -53,11 +53,13 @@ colorMap3
 
 #use the coordinates of NewYork city
 lats=geocode("new york city, ny",source="dsk")
+
 #set the latitude and longitude
 y1=lats$lat-10
 x1=lats$lon-10
 x2=lats$lon+10
 y2=lats$lat+10
+
 colorMap4=ggplot(mergedData, aes(map_id=stateName))
 colorMap4=colorMap4 + geom_map(map=us,aes(fill=Murder))+ scale_fill_gradient(low = "green", high = "red") + xlim(c(x1,x2)) + ylim(c(y1,y2))        
 colorMap4=colorMap4+ expand_limits(x=us$long, y = us$lat) + coord_map()
